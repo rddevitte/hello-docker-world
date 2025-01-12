@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+docker build -t hello-docker-world -f Dockerfile . && \
+docker run --rm hello-docker-world
